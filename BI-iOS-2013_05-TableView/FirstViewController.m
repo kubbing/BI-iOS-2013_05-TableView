@@ -48,23 +48,25 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonAction:)];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRewind target:self action:@selector(removeButtonAction:)];
     
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.refreshControl addTarget:self action:@selector(refreshControlAction:) forControlEvents:UIControlEventValueChanged];
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-    tableView.dataSource = self;
-    tableView.delegate = self;
+//    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+//    tableView.dataSource = self;
+//    tableView.delegate = self;
     
-    [tableView registerClass:[FirstCell class] forCellReuseIdentifier:@"cell"];
+    [self.tableView registerClass:[FirstCell class] forCellReuseIdentifier:@"cell"];
     
-    [self.view addSubview:tableView];
-    self.tableView = tableView;
+//    [self.view addSubview:tableView];
+//    self.tableView = tableView;
     
 //    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 66)];
     headerView.backgroundColor = [UIColor orangeColor];
-    tableView.tableHeaderView = headerView;
+    self.tableView.tableHeaderView = headerView;
     
-    tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 }
@@ -83,6 +85,16 @@
 }
 
 #pragma mark - Actions
+
+- (void)refreshControlAction:(id)sender
+{
+    double delayInSeconds = 2.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [self.tableView reloadData];
+        [self.refreshControl endRefreshing];
+    });
+}
 
 - (void)addButtonAction:(id)sender
 {
@@ -123,7 +135,6 @@
     
     cell.textLabel.text = self.dataArray[indexPath.row];
     cell.detailTextLabel.text = [indexPath description];
-    
     cell.imageView.image = [UIImage imageNamed:@"placeholder"];
 
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
@@ -138,6 +149,26 @@
     });
     
     return cell;
+}
+
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewCellEditingStyleDelete;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [self.dataArray removeObjectAtIndex:indexPath.row];
+        [self.tableView beginUpdates];
+        [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationRight];
+        [self.tableView endUpdates];
+    }
 }
 
 
