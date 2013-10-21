@@ -10,9 +10,21 @@
 
 @interface MYViewController ()
 
+@property (readonly) NSArray *dataArray;
+
 @end
 
 @implementation MYViewController
+
+@synthesize dataArray = _dataArray;
+
+- (NSArray *)dataArray
+{
+    if (!_dataArray) {
+        _dataArray = @[ @"Jakub", @"Dominik", @"Ruda" ];
+    }
+    return _dataArray;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,6 +46,8 @@
     
     tableView.dataSource = self;
     tableView.delegate = self;
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     [self.view addSubview:tableView];
 }
@@ -46,6 +60,23 @@
 
 #pragma mark - UITableViewDataSource
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+//    cell.contentView.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.3];
+    cell.textLabel.text = self.dataArray[indexPath.row];
+    
+    return cell;
+}
 
 @end
