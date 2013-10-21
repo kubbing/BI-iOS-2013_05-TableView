@@ -62,20 +62,21 @@
     
 //    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
-    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 66)];
-    headerView.backgroundColor = [UIColor orangeColor];
-    self.tableView.tableHeaderView = headerView;
+//    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 66)];
+//    headerView.backgroundColor = [UIColor orangeColor];
+    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
+    self.tableView.tableHeaderView = searchBar;
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.automaticallyAdjustsScrollViewInsets = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
-    
+    self.tableView.contentOffset = CGPointMake(0, -20);
 }
 
 - (void)didReceiveMemoryWarning
