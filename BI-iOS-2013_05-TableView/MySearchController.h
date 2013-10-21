@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MySearchController : UISearchDisplayController
+@interface MySearchController : UISearchDisplayController <UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate>
 
 @property (strong, nonatomic) NSArray *dataArray;
 

@@ -10,5 +10,15 @@
 
 @implementation MySearchController
 
+- (id)initWithSearchBar:(UISearchBar *)searchBar contentsController:(UIViewController *)viewController
+{
+    self = [super initWithSearchBar:searchBar contentsController:viewController];
+    if (self) {
+        self.searchResultsDataSource = self;
+        self.searchResultsDelegate = self;
+        self.delegate = self;
+    }
+    return self;
+}
 
 @end
