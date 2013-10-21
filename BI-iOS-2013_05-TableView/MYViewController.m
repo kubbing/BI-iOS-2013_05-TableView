@@ -79,6 +79,18 @@
     cell.detailTextLabel.text = [indexPath description];
     cell.imageView.image = [UIImage imageNamed:@"placeholder"];
     
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+
+        NSURL *url = [NSURL URLWithString:@"http://rajce.hippotaps.com/tomato.jpg"];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        UIImage *image = [UIImage imageWithData:data scale:[UIScreen mainScreen].scale];
+
+        dispatch_async(dispatch_get_main_queue(), ^{
+            cell.imageView.image = image;
+        });
+        
+    });
+    
     
     return cell;
 }
