@@ -10,4 +10,6 @@
 
 @interface MySearchController : UISearchDisplayController
 
+@property (strong, nonatomic) NSArray *dataArray;
+
 @end

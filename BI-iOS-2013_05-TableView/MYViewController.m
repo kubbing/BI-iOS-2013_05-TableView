@@ -77,6 +77,8 @@
 {
     [super viewWillAppear:animated];
     
+    self.searchController.dataArray = self.dataArray;
+    
 //    self.tableView.contentOffset = CGPointMake(0, 44);
 }
 
