@@ -8,11 +8,13 @@
 
 #import "MYViewController.h"
 #import "MyCell.h"
+#import "MySearchController.h"
 
 @interface MYViewController ()
 
 @property (readonly) NSMutableArray *dataArray;
 //@property (strong, nonatomic) UITableView *tableView;
+@property (strong, nonatomic) MySearchController *searchController;
 
 @end
 
@@ -62,6 +64,9 @@
     {
         UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
         self.tableView.tableHeaderView = searchBar;
+        
+        MySearchController *searchController = [[MySearchController alloc] initWithSearchBar:searchBar contentsController:self];
+        self.searchController = searchController;
     }
     
     self.refreshControl = [[UIRefreshControl alloc] init];

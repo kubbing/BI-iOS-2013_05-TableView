@@ -21,6 +21,7 @@
 		17DFA4D41814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */; };
 		17DFA4E818150E31008E9560 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E718150E31008E9560 /* MYViewController.m */; };
 		17DFA4EB181512E9008E9560 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4EA181512E9008E9560 /* MyCell.m */; };
+		17DFA4EE18151DD4008E9560 /* MySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4ED18151DD4008E9560 /* MySearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		17DFA4E718150E31008E9560 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 		17DFA4E9181512E9008E9560 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		17DFA4EA181512E9008E9560 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		17DFA4EC18151DD4008E9560 /* MySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySearchController.h; sourceTree = "<group>"; };
+		17DFA4ED18151DD4008E9560 /* MySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				17DFA4E718150E31008E9560 /* MYViewController.m */,
 				17DFA4E9181512E9008E9560 /* MyCell.h */,
 				17DFA4EA181512E9008E9560 /* MyCell.m */,
+				17DFA4EC18151DD4008E9560 /* MySearchController.h */,
+				17DFA4ED18151DD4008E9560 /* MySearchController.m */,
 			);
 			path = "BI-iOS-2013_05-TableView";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFA4EE18151DD4008E9560 /* MySearchController.m in Sources */,
 				17DFA4E818150E31008E9560 /* MYViewController.m in Sources */,
 				17DFA4EB181512E9008E9560 /* MyCell.m in Sources */,
 				17DFA4BF1814E5FB008E9560 /* AppDelegate.m in Sources */,
