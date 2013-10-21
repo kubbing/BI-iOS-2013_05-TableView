@@ -60,9 +60,8 @@
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     {
-        UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
-        headerView.backgroundColor = [UIColor blueColor];
-        self.tableView.tableHeaderView = headerView;
+        UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
+        self.tableView.tableHeaderView = searchBar;
     }
     
     self.refreshControl = [[UIRefreshControl alloc] init];
