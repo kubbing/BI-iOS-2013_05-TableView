@@ -19,6 +19,7 @@
 		17DFA4CA1814E5FB008E9560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFA4B21814E5FB008E9560 /* UIKit.framework */; };
 		17DFA4D21814E5FB008E9560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DFA4D01814E5FB008E9560 /* InfoPlist.strings */; };
 		17DFA4D41814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */; };
+		17DFA4E818150E31008E9560 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E718150E31008E9560 /* MYViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		17DFA4CF1814E5FB008E9560 /* BI-iOS-2013_05-TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BI-iOS-2013_05-TableViewTests-Info.plist"; sourceTree = "<group>"; };
 		17DFA4D11814E5FB008E9560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BI_iOS_2013_05_TableViewTests.m; sourceTree = "<group>"; };
+		17DFA4E618150E31008E9560 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		17DFA4E718150E31008E9560 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				17DFA4BE1814E5FB008E9560 /* AppDelegate.m */,
 				17DFA4C01814E5FB008E9560 /* Images.xcassets */,
 				17DFA4B51814E5FB008E9560 /* Supporting Files */,
+				17DFA4E618150E31008E9560 /* MYViewController.h */,
+				17DFA4E718150E31008E9560 /* MYViewController.m */,
 			);
 			path = "BI-iOS-2013_05-TableView";
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFA4E818150E31008E9560 /* MYViewController.m in Sources */,
 				17DFA4BF1814E5FB008E9560 /* AppDelegate.m in Sources */,
 				17DFA4BB1814E5FB008E9560 /* main.m in Sources */,
 			);
@@ -441,6 +447,7 @@
 				17DFA4D91814E5FB008E9560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DFA4DA1814E5FB008E9560 /* Build configuration list for PBXNativeTarget "BI-iOS-2013_05-TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				17DFA4DC1814E5FB008E9560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
