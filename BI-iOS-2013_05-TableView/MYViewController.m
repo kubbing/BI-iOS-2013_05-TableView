@@ -7,6 +7,7 @@
 //
 
 #import "MYViewController.h"
+#import "MyCell.h"
 
 @interface MYViewController ()
 
@@ -46,7 +47,7 @@
     
     tableView.dataSource = self;
     tableView.delegate = self;
-    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [tableView registerClass:[MyCell class] forCellReuseIdentifier:@"cell"];
     tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     [self.view addSubview:tableView];
@@ -75,6 +76,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
 //    cell.contentView.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.3];
     cell.textLabel.text = self.dataArray[indexPath.row];
+    cell.detailTextLabel.text = [indexPath description];
     
     return cell;
 }

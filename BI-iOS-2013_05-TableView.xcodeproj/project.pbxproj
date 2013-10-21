@@ -20,6 +20,7 @@
 		17DFA4D21814E5FB008E9560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DFA4D01814E5FB008E9560 /* InfoPlist.strings */; };
 		17DFA4D41814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */; };
 		17DFA4E818150E31008E9560 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E718150E31008E9560 /* MYViewController.m */; };
+		17DFA4EB181512E9008E9560 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4EA181512E9008E9560 /* MyCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BI_iOS_2013_05_TableViewTests.m; sourceTree = "<group>"; };
 		17DFA4E618150E31008E9560 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
 		17DFA4E718150E31008E9560 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		17DFA4E9181512E9008E9560 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		17DFA4EA181512E9008E9560 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				17DFA4B51814E5FB008E9560 /* Supporting Files */,
 				17DFA4E618150E31008E9560 /* MYViewController.h */,
 				17DFA4E718150E31008E9560 /* MYViewController.m */,
+				17DFA4E9181512E9008E9560 /* MyCell.h */,
+				17DFA4EA181512E9008E9560 /* MyCell.m */,
 			);
 			path = "BI-iOS-2013_05-TableView";
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DFA4E818150E31008E9560 /* MYViewController.m in Sources */,
+				17DFA4EB181512E9008E9560 /* MyCell.m in Sources */,
 				17DFA4BF1814E5FB008E9560 /* AppDelegate.m in Sources */,
 				17DFA4BB1814E5FB008E9560 /* main.m in Sources */,
 			);
