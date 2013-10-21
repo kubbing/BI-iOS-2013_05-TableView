@@ -19,6 +19,26 @@
     return self;
 }
 
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+}
+
+//- (void)setEditing:(BOOL)editing
+//{
+//
+//}
+
+//- (void)layoutSubviews
+//{
+//
+//}
+
+//- (void)prepareForReuse
+//{
+//
+//}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
