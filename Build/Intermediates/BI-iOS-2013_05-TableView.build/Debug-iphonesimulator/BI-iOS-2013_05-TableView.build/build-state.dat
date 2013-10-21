@@ -1,0 +1,344 @@
+TBI-iOS-2013_05-TableView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView normal i386
+cCopyStringsFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets
+cProcessInfoPlistFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist
+cGenerateDSYMFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView
+cTouch /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052448D680000000000000176
+t1380224360
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000524494BC00000000000003B5
+t1380226236
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000524494CE000000000000019E
+t1380226254
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000524494D30000000000445830
+t1380226259
+s4479024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000524494D5000000000088B570
+t1380226261
+s8959344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000524494DC0000000001DB1C90
+t1380226268
+s31136912
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005240FA270000000000000AC9
+t1379990055
+s2761
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m
+c000000005264BF3A0000000000000958
+t1382334266
+s2392
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist
+c000000005264AE7B0000000000000490
+t1382329979
+s1168
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch
+c000000005264AE7B0000000000000158
+t1382329979
+s344
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m
+c000000005264BF3A0000000000000322
+t1382334266
+s802
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets
+c000000005264AE7B0000000000000088
+t1382329979
+s136
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings
+c000000005264AE7B000000000000002D
+t1382329979
+s45
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m
+c000000005264AE7B000000000000016A
+t1382329979
+s362
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o
+t1382334299
+s67532
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/BI-iOS-2013_05-TableView.LinkFileList
+c000000005264BF5B0000000000000232
+t1382334299
+s562
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o
+t1382334299
+s42776
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o
+t1382334299
+s3716
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_dependencies.txt
+t1382334301
+s472
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_generated_info.plist
+t1382334301
+s525
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch
+t1382334299
+s115112
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app
+t1382334301
+s272
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM
+t2
+s0
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView
+t1382334299
+s21832
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist
+t1382334301
+s1033
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/PkgInfo
+t1382334301
+s8
+
+N/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings
+t1382334299
+s42
+
+CBuild AST from /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m
+r0
+
+CBuild AST from /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m
+r0
+
+CBuild AST from /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies577b9cdbf614b841^f183a3dbf614b841^---0#1#1#--18"Check dependencies36"02A88F7B-BAE5-4D0A-A26B-BA6B07AF07FE-
+
+CCompileAssetCatalog /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets
+s404027099.811305
+e404027101.050698
+r1
+xCompileAssetCatalog
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/LaunchImage-700-568h@2x.png
+o/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Assets.car
+o/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CompileAssetCatalog Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app BI-iOS-2013_05-TableView/Images.xcassets126"CompileAssetCatalog Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app BI-iOS-2013_05-TableView/Images.xcassetsf4c4cfdbf614b841^33fb0cddf614b841^-500"/* com.apple.actool.compilation-results *//Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/LaunchImage-700-568h@2x.png/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Assets.car/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@97"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets/0000000000000000^1324"CompileAssetCatalog Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app BI-iOS-2013_05-TableView/Images.xcassets    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/Images.xcassets36"AE2F34C2-F31E-4DA2-9ECE-3FEDA8F5AC6C-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404027099.683813
+e404027099.775586
+r1
+xCompileC
+xBuild/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.h
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m253"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o BI-iOS-2013_05-TableView/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb630afdbf614b841^868dc6dbf614b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m0000000000000000^4267"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o BI-iOS-2013_05-TableView/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/kubbing/Projects/BI-iOS-2013_05-TableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-generated-files.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-own-target-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-all-target-headers.hmap -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-project-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources/i386 -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources -F/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator -include /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch -MMD -MT dependencies -MF /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.dia -c /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.m -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o36"C946D74D-2145-4F53-9548-302A06EDAC0B-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404027099.684118
+e404027099.764603
+r1
+xCompileC
+xBuild/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m269"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o BI-iOS-2013_05-TableView/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7c45afdbf614b841^8cbdc3dbf614b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m0000000000000000^4315"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o BI-iOS-2013_05-TableView/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/kubbing/Projects/BI-iOS-2013_05-TableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-generated-files.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-own-target-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-all-target-headers.hmap -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-project-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources/i386 -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources -F/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator -include /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch -MMD -MT dependencies -MF /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.d --serialize-diagnostics /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.dia -c /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/FirstViewController.m -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o36"666A86C4-25A4-4E9E-A125-118984226A27-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CCompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404027099.684500
+e404027099.729094
+r1
+xCompileC
+xBuild/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m239"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o BI-iOS-2013_05-TableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc158afdbf614b841^3ba6badbf614b841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m0000000000000000^4225"CompileC Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o BI-iOS-2013_05-TableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/kubbing/Projects/BI-iOS-2013_05-TableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-generated-files.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-own-target-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-all-target-headers.hmap -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-project-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources/i386 -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources -F/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator -include /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch -MMD -MT dependencies -MF /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.dia -c /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/main.m -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o36"C54A1A9D-E4DF-4194-BB80-2AAEECA84289-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CCopyStringsFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings
+s404027099.810830
+e404027099.812078
+r1
+xCopyStringsFile
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings
+xBI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings160"CopyStringsFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings BI-iOS-2013_05-TableView/en.lproj/InfoPlist.stringsdfa6cfdbf614b841^32e5cfdbf614b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings0000000000000000^681"CopyStringsFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj/InfoPlist.strings BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/en.lproj -- BI-iOS-2013_05-TableView/en.lproj/InfoPlist.strings36"56CDB4EB-6379-4CB7-AC3A-2F7FB9B6AFB7-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CGenerateDSYMFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView
+s404027101.053484
+e404027101.072801
+r1
+xGenerateDSYMFile
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generate /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM178"GenerateDSYMFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView26c30dddf614b841^d1b212ddf614b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM00342c6adfffdf42^793"GenerateDSYMFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app.dSYM36"A9339631-5D19-474D-B588-1F8BD89A5609-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CLd /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView normal i386
+s404027099.776552
+e404027099.809799
+r1
+xLd
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView
+xnormal
+xi386
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/BI-iOS-2013_05-TableView.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/AppDelegate.o
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/FirstViewController.o
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView105"Ld Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView normal i3865ce4c6dbf614b841^1a50cfdbf614b841^---0#0#1#--1619"Ld Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView normal i386    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator -F/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator -filelist /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/BI-iOS-2013_05-TableView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/Objects-normal/i386/BI-iOS-2013_05-TableView_dependency_info.dat -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/BI-iOS-2013_05-TableView36"73C3F1C4-67D5-425E-BD36-D817EFFEFC73-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CProcessInfoPlistFile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist
+s404027101.051307
+e404027101.052835
+r1
+xProcessInfoPlistFile
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Process /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist158"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plistd32f0dddf614b841^40870dddf614b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist0000000000000000^1085"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Info.plist -genpkginfo /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/assetcatalog_generated_info.plist -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app/Info.plist36"DD43A405-F0FF-45C3-9DEA-EF1B95B893F1-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CProcessPCH /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404027099.639549
+e404027099.683103
+r1
+xProcessPCH
+x/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch
+xBI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch279"ProcessPCH Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler52d6a3dbf614b841^f4e0aedbf614b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch0000000000000000^4130"ProcessPCH Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kubbing/Projects/BI-iOS-2013_05-TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/kubbing/Projects/BI-iOS-2013_05-TableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-generated-files.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-own-target-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-all-target-headers.hmap -iquote /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/BI-iOS-2013_05-TableView-project-headers.hmap -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources/i386 -I/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/BI-iOS-2013_05-TableView.build/Debug-iphonesimulator/BI-iOS-2013_05-TableView.build/DerivedSources -F/Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.dia -MMD -MT dependencies -MF /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.d -c /Users/kubbing/Projects/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch -o /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Intermediates/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-fnetohvlfctwmqdrwmqmtjksccfc/BI-iOS-2013_05-TableView-Prefix.pch.pch36"129178D7-288B-4471-B5F5-A78A7E135D87-
+b6CE494DD-1F29-4603-A0B8-54D2076741ED
+
+CProcessPCH /Users/kubbing/Projects/BI-iOS-2013_05-TableView/DerivedData/BI-iOS-2013_05-TableView/Index/PrecompiledHeaders/BI-iOS-2013_05-TableView-Prefix-dnhumgraflxmxufvoqastwdfngdr_ast/BI-iOS-2013_05-TableView-Prefix.pch.pch BI-iOS-2013_05-TableView/BI-iOS-2013_05-TableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/kubbing/Projects/BI-iOS-2013_05-TableView/Build/Products/Debug-iphonesimulator/BI-iOS-2013_05-TableView.app
+r0
+
