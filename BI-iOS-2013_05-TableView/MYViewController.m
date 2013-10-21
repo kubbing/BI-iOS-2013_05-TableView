@@ -77,6 +77,8 @@
 //    cell.contentView.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.3];
     cell.textLabel.text = self.dataArray[indexPath.row];
     cell.detailTextLabel.text = [indexPath description];
+    cell.imageView.image = [UIImage imageNamed:@"placeholder"];
+    
     
     return cell;
 }
