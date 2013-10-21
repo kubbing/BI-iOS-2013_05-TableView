@@ -31,6 +31,10 @@
     self.view.backgroundColor = [UIColor yellowColor];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    
+    tableView.dataSource = self;
+    tableView.delegate = self;
+    
     [self.view addSubview:tableView];
 }
 
@@ -39,5 +43,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - UITableViewDataSource
+
+
 
 @end
