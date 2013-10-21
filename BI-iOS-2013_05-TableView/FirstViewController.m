@@ -12,7 +12,7 @@
 @interface FirstViewController ()
 
 @property (weak, nonatomic) UITableView *tableView;
-@property (readonly) NSArray *dataArray;
+@property (readonly) NSMutableArray *dataArray;
 
 @end
 
@@ -20,10 +20,10 @@
 
 @synthesize dataArray = _dataArray;
 
-- (NSArray *)dataArray
+- (NSMutableArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"Jakub", @"Natalka", @"Dominik"];
+        _dataArray = [@[@"Jakub", @"Natalka", @"Dominik"] mutableCopy];
     }
     return _dataArray;
 }
@@ -42,7 +42,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.title = @"Titulek";
+    
+    self.navigationController.navigationBar.tintColor = [UIColor orangeColor];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonAction:)];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.dataSource = self;
@@ -53,7 +56,7 @@
     [self.view addSubview:tableView];
     self.tableView = tableView;
     
-    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
+//    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 66)];
     headerView.backgroundColor = [UIColor orangeColor];
@@ -75,6 +78,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Actions
+
+- (void)addButtonAction:(id)sender
+{
+
 }
 
 #pragma mark - UITableViewDataSource
