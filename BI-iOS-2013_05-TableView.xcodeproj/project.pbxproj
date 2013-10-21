@@ -20,6 +20,7 @@
 		17DFA4D21814E5FB008E9560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DFA4D01814E5FB008E9560 /* InfoPlist.strings */; };
 		17DFA4D41814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */; };
 		17DFA4DF1814F682008E9560 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4DE1814F682008E9560 /* FirstViewController.m */; };
+		17DFA4E21814FAF1008E9560 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E11814FAF1008E9560 /* FirstCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BI_iOS_2013_05_TableViewTests.m; sourceTree = "<group>"; };
 		17DFA4DD1814F682008E9560 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		17DFA4DE1814F682008E9560 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		17DFA4E01814FAF1008E9560 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		17DFA4E11814FAF1008E9560 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				17DFA4B51814E5FB008E9560 /* Supporting Files */,
 				17DFA4DD1814F682008E9560 /* FirstViewController.h */,
 				17DFA4DE1814F682008E9560 /* FirstViewController.m */,
+				17DFA4E01814FAF1008E9560 /* FirstCell.h */,
+				17DFA4E11814FAF1008E9560 /* FirstCell.m */,
 			);
 			path = "BI-iOS-2013_05-TableView";
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				17DFA4BF1814E5FB008E9560 /* AppDelegate.m in Sources */,
 				17DFA4DF1814F682008E9560 /* FirstViewController.m in Sources */,
+				17DFA4E21814FAF1008E9560 /* FirstCell.m in Sources */,
 				17DFA4BB1814E5FB008E9560 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
