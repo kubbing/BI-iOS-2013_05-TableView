@@ -12,7 +12,7 @@
 @interface MYViewController ()
 
 @property (readonly) NSMutableArray *dataArray;
-@property (strong, nonatomic) UITableView *tableView;
+//@property (strong, nonatomic) UITableView *tableView;
 
 @end
 
@@ -50,23 +50,30 @@
 
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRewind target:self action:@selector(removeButtonAction:)];
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+//    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     
-    tableView.dataSource = self;
-    tableView.delegate = self;
-    [tableView registerClass:[MyCell class] forCellReuseIdentifier:@"cell"];
+//    tableView.dataSource = self;
+//    tableView.delegate = self;
+    [self.tableView registerClass:[MyCell class] forCellReuseIdentifier:@"cell"];
 //    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     
-    tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     {
-        UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(tableView.bounds), 44)];
+        UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
         headerView.backgroundColor = [UIColor blueColor];
-        tableView.tableHeaderView = headerView;
+        self.tableView.tableHeaderView = headerView;
     }
     
-    [self.view addSubview:tableView];
-    self.tableView = tableView;
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.refreshControl addTarget:self action:@selector(refreshControlAction:) forControlEvents:UIControlEventValueChanged];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+//    self.tableView.contentOffset = CGPointMake(0, 44);
 }
 
 - (void)didReceiveMemoryWarning
@@ -76,6 +83,16 @@
 }
 
 #pragma mark - Actions
+
+- (void)refreshControlAction:(id)sender
+{
+    double delayInSeconds = 2.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [self.tableView reloadData];
+        [self.refreshControl endRefreshing];
+    });
+}
 
 - (void)addButtonAction:(id)sender
 {
