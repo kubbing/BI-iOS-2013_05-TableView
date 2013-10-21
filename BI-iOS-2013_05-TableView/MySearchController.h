@@ -11,5 +11,6 @@
 @interface MySearchController : UISearchDisplayController <UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate>
 
 @property (strong, nonatomic) NSArray *dataArray;
+@property (strong, nonatomic) NSArray *filteredArray;
 
 @end
