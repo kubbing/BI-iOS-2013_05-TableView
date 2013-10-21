@@ -8,9 +8,11 @@
 
 #import "FirstViewController.h"
 #import "FirstCell.h"
+#import "MySearchController.h"
 
 @interface FirstViewController ()
 
+@property (strong, nonatomic) MySearchController *searchController;
 @property (weak, nonatomic) UITableView *tableView;
 @property (readonly) NSMutableArray *dataArray;
 
@@ -51,25 +53,17 @@
     self.refreshControl = [[UIRefreshControl alloc] init];
     [self.refreshControl addTarget:self action:@selector(refreshControlAction:) forControlEvents:UIControlEventValueChanged];
     
-//    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-//    tableView.dataSource = self;
-//    tableView.delegate = self;
-    
     [self.tableView registerClass:[FirstCell class] forCellReuseIdentifier:@"cell"];
     
-//    [self.view addSubview:tableView];
-//    self.tableView = tableView;
-    
-//    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
-    
-//    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 66)];
-//    headerView.backgroundColor = [UIColor orangeColor];
     UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 44)];
     self.tableView.tableHeaderView = searchBar;
     
+    MySearchController *searchController = [[MySearchController alloc] initWithSearchBar:searchBar contentsController:self];
+    self.searchController = searchController;
+    
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
-//    self.automaticallyAdjustsScrollViewInsets = YES;
+//    self.extendedLayoutIncludesOpaqueBars = 
 }
 
 - (void)viewWillAppear:(BOOL)animated

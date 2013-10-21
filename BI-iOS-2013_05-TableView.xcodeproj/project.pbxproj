@@ -21,6 +21,7 @@
 		17DFA4D41814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4D31814E5FB008E9560 /* BI_iOS_2013_05_TableViewTests.m */; };
 		17DFA4DF1814F682008E9560 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4DE1814F682008E9560 /* FirstViewController.m */; };
 		17DFA4E21814FAF1008E9560 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E11814FAF1008E9560 /* FirstCell.m */; };
+		17DFA4E518150445008E9560 /* MySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFA4E418150445008E9560 /* MySearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		17DFA4DE1814F682008E9560 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		17DFA4E01814FAF1008E9560 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
 		17DFA4E11814FAF1008E9560 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
+		17DFA4E318150445008E9560 /* MySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySearchController.h; sourceTree = "<group>"; };
+		17DFA4E418150445008E9560 /* MySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				17DFA4DE1814F682008E9560 /* FirstViewController.m */,
 				17DFA4E01814FAF1008E9560 /* FirstCell.h */,
 				17DFA4E11814FAF1008E9560 /* FirstCell.m */,
+				17DFA4E318150445008E9560 /* MySearchController.h */,
+				17DFA4E418150445008E9560 /* MySearchController.m */,
 			);
 			path = "BI-iOS-2013_05-TableView";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFA4E518150445008E9560 /* MySearchController.m in Sources */,
 				17DFA4BF1814E5FB008E9560 /* AppDelegate.m in Sources */,
 				17DFA4DF1814F682008E9560 /* FirstViewController.m in Sources */,
 				17DFA4E21814FAF1008E9560 /* FirstCell.m in Sources */,
