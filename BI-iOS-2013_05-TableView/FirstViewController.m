@@ -10,6 +10,8 @@
 
 @interface FirstViewController ()
 
+@property (weak, nonatomic) UITableView *tableView;
+
 @end
 
 @implementation FirstViewController
@@ -29,6 +31,10 @@
 	// Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor redColor];
+    
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:tableView];
+    self.tableView = tableView;
 }
 
 - (void)didReceiveMemoryWarning
