@@ -11,7 +11,8 @@
 
 @interface MYViewController ()
 
-@property (readonly) NSArray *dataArray;
+@property (readonly) NSMutableArray *dataArray;
+@property (strong, nonatomic) UITableView *tableView;
 
 @end
 
@@ -19,10 +20,10 @@
 
 @synthesize dataArray = _dataArray;
 
-- (NSArray *)dataArray
+- (NSMutableArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[ @"Jakub", @"Dominik", @"Ruda" ];
+        _dataArray = [@[ @"Jakub", @"Dominik", @"Ruda" ] mutableCopy];
     }
     return _dataArray;
 }
@@ -41,22 +42,66 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
+    self.title = @"Titulek";
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonAction:)];
+
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRewind target:self action:@selector(removeButtonAction:)];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     
     tableView.dataSource = self;
     tableView.delegate = self;
     [tableView registerClass:[MyCell class] forCellReuseIdentifier:@"cell"];
-    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
+//    tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
+    
+    tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    
+    {
+        UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(tableView.bounds), 44)];
+        headerView.backgroundColor = [UIColor blueColor];
+        tableView.tableHeaderView = headerView;
+    }
     
     [self.view addSubview:tableView];
+    self.tableView = tableView;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Actions
+
+- (void)addButtonAction:(id)sender
+{
+    [self.dataArray addObject:[[NSDate date] description]];
+    
+    [self.tableView beginUpdates];
+    
+    [self.tableView insertRowsAtIndexPaths:@[ [NSIndexPath indexPathForRow:self.dataArray.count-1 inSection:0] ] withRowAnimation:UITableViewRowAnimationLeft];
+    
+    [self.tableView endUpdates];
+    
+    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:self.dataArray.count-1 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+}
+
+- (void)removeButtonAction:(id)sender
+{
+    NSInteger random = rand() % self.dataArray.count;
+    
+    [self.dataArray removeObjectAtIndex:random];
+    
+    [self.tableView beginUpdates];
+    
+    [self.tableView deleteRowsAtIndexPaths:@[ [NSIndexPath indexPathForRow:random inSection:0] ] withRowAnimation:UITableViewRowAnimationLeft];
+    
+    [self.tableView endUpdates];
+
 }
 
 #pragma mark - UITableViewDataSource
