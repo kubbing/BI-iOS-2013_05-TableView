@@ -71,6 +71,7 @@
     [super viewWillAppear:animated];
     
     self.tableView.contentOffset = CGPointMake(0, -20);
+    self.searchController.dataArray = self.dataArray;
 }
 
 - (void)didReceiveMemoryWarning
